@@ -32,6 +32,7 @@ class Solution:
         #             return [i,j]
 
         # Order n - Optimized
+        # soln
         checked = {}
         for i in range(len(nums)):
             needed_num = target-nums[i]
